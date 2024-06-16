@@ -1,0 +1,101 @@
+#jj {
+	background-color: mistyrose;
+	height: 2760px;
+}
+
+#main {
+	width: 1240px;
+	margin: 0 auto;
+	height: 870px;
+	border: 2px solid darkslateblue;
+}
+.header img {
+	width: 1200px;
+	height: 400px;
+}
+
+body {
+	font-family: "华文新魏";
+}
+
+.header {
+	color: darkblue;
+	font-size: 24px;
+	background-color: bisque;
+	padding: 10px;
+	margin: 10px;
+}
+
+.header span {
+	color: cadetblue;
+	font-size: 60px;
+}
+
+.header p {
+	color: cornflowerblue;
+}
+
+#bb {
+	width: 1240px;
+	margin: 0 auto;
+	height: 1020px;
+	background-color: bisque;
+	margin-top: 20px;
+}
+
+.rih {
+	color: maroon;
+	font-size: 30px;
+}
+
+.photo img {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 6px;
+	margin-bottom: 2px;
+}
+.photo img:hover{
+    transform: scale(1.05);
+    
+}
+
+#in {
+	width: 1240px;
+	margin: 0 auto;
+	height: 815px;
+	background-color: khaki;
+	margin-top: 20px;
+	border: 3px solid mediumorchid;
+}
+.dz {
+	color: darkorange;
+	font-size: 35px;
+}
+.dz .ii{
+	float: left;
+	height: 400px;
+	width: 750px;
+}
+.dz .hh{
+	float: right;
+	width: 640px;
+	height: 300px;
+	margin-top: 5px;
+}
+.dz .hh p {
+	color: mediumvioletred;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.footer {
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+	background: #ccc;
+	text-align: center;
+	color: #fff;
+}
+.footer p{
+	font-size: 30px;
+}

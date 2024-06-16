@@ -1,0 +1,180 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	outline: 0;
+	background: 0;
+}
+body{
+	font-family: "华文新魏";
+	font-size: 26px;
+	color: #404042;
+}
+a:link,a:visited{
+	text-decoration: none;
+	color:#fff;
+}
+#nav{
+	width: 100%;
+	background: #404054;
+	height: 46px;
+}
+#nav .js{
+	width: 1600px;
+	margin: 0 auto;
+}
+#nav .js .left{
+	float: left;
+}
+#nav .js .right{
+	float: right;
+}
+#nav .js .left li{
+	float: left;
+	height: 46px;
+	line-height: 46px;
+	margin-right: 5px;
+	color: #da5454;
+	cursor: pointer;
+}
+#nav .js .right li{
+	float:right;
+	height: 46px;
+	line-height: 46px;
+	margin-left:60px;
+	color: coral;
+	cursor: pointer;
+}
+.js li a {
+	display: inline-block;
+	line-height: 44px;
+	padding: 0 36px;
+	color: #fff;
+}
+.js a:hover{
+	background: #da5454;
+}
+.js .color_in{
+	background: #da5454;
+}
+.banner {
+	width:100%;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+.first{
+	position: absolute;
+	top: 0;
+	height:950px;
+	width: 1900px;
+}
+.banner .banner_pic .pic{
+	display: none;
+}
+.banner .banner_pic .current{
+	display: block;
+}
+.banner ol{
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	margin-left: -62px;
+}
+.banner ol .but{
+	float: left;
+	width: 30px;
+	height: 1px;
+	border: 1px solid #da5454;
+	margin-right: 20px;
+}
+.banner ol li{
+	cursor: pointer;
+}
+.banner ol .current{
+	background: #90d1d5;
+	float: left;
+	width: 30px;
+	height: 1px;
+	border: 1px solid #90d1d5;
+	margin-right: 20px;
+}
+#content{
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	margin-top: 15px;
+	background: url(../img/sh/yy.jpg) ;
+}
+.content .ef{
+	flex-basis: 60%;
+	width: 260px;
+	height: 300px;
+	margin-top: 20px;
+	font-weight: 110;
+	line-height: 45px;
+	text-align: center;
+}
+.ef{
+	font-size: 30px;
+}
+.ef p{
+	color: navy;
+	font-size: 20px;
+	font-family: "黑体";
+}
+.news_con{
+	float: left;
+	margin-left: 60px;
+	/* width: 800px;
+	height: 800px;
+	background-image: radial-gradient(ellipse at center,#fff,#d6e4ed); */
+}
+.news_con img{
+	width: 300px;
+	height: 350px;
+	border: 1.5px solid bisque;
+	border-radius: 20px ;
+	margin-top: 20px;
+}
+
+.news_con .one{
+	width: 300px;
+	height: 30px;
+	color: darkblue;
+	font: italic 25px/30px "隶书";
+	/*padding-left: 10px;*/
+	/*line-height: 50px; */
+	/*font-weight: bold;*/ 
+	font-size: 20px;
+	border-bottom: 1px solid lightsalmon;
+}
+.news_con .two{
+	width: 300px;
+	height: 79px;
+	line-height: 20px;
+	padding: 10px 0 0 10px;
+	font-size: 20px;
+	color: darkblue;
+	font-family: "仿宋";
+	
+}
+.news_con .shadow{
+	width: 300px;
+	height: 5px;
+	background: url(../img/yinying.jpg) no-repeat;
+}
+
+.tree{
+	position: fixed;
+	right: 3%;
+	bottom: 3%;
+}
+.tree img{
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	margin-left: 20px;
+}

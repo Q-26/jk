@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* c3盒子模型 */
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+}
+#learn {
+	width: 1500px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 80px;
+	font-family: "华文琥珀";
+	color: #585858;
+	padding: 40px 0;
+	border-bottom: 7px solid #ececec;
+}
+}
+.title h2 {
+    text-align: center;
+}
+
+.juese li {
+    float: left;
+    padding: 10px 10px;
+    width: 50%;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background-image: linear-gradient(to bottom right, #546fff, #8be1fd);
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card-Hero{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(89deg, #000, #064c67);
+    border-radius: 15px;
+}
+.container .card-Hero img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 220px;
+    transition: 0.5s;
+	width: 220px;
+}
+.container .card-Hero:hover img{
+    left: 78%;
+    height: 300px;
+}
+.container .card-Hero .content-Hero{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.container .card-Hero:hover .content-Hero{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.container .card-Hero .content-Hero h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.2em;
+}
+.container .card-Hero .content-Hero p{
+    color: #fff;
+    margin: 6px 0 5px 0;
+}
+.container .card-Hero .content-Hero a{
+    position: relative;
+    color: #111;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.footer {
+		width: 100%;
+		height: 100px;
+		padding-top: 20px;
+		text-align: center;
+		color: cornflowerblue;
+		font-size: 24px;
+	}
